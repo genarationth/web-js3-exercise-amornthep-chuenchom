@@ -1,6 +1,7 @@
 console.log("Ex 1");
 const transaction = 5;
-const calCost = (transaction) => transaction * 3 + transaction * 0.01;
+const calCost = (transaction) =>
+  transaction + transaction * 0.03 + transaction * 0.01;
 console.log(calCost(transaction));
 console.log("----------------------------------------");
 
